@@ -1,0 +1,51 @@
+- actoress-images
+    - train
+        - brad-pitt
+            - 50 augm. (from 2 sample images) images
+        - clint-eastwood
+            - 50 augm. (from 2 sample images) images
+        - halle-berry
+            - 50 augm. (from 2 sample images) images
+        - judi-dench
+            - 50 augm. (from 2 sample images) images
+        - julia-roberts
+            - 50 augm. (from 2 sample images) images
+        - leonardo-dicaprio
+            - 50 augm. (from 2 sample images) images
+        - marilyn-monroe
+            - 50 augm. (from 2 sample images) images
+        - meryl-streep
+            - 50 augm. (from 2 sample images) images
+        - nicolas-cage
+            - 50 augm. (from 2 sample images) images
+        - nicole-kidman
+            - 50 augm. (from 2 sample images) images
+        - sylvester-stallone
+            - 50 augm. (from 2 sample images) images
+        - will-smith
+            - 50 augm. (from 2 sample images) images
+    - valid
+        - barbarian
+            - 10 augm. (from 2 sample images) images
+        - bard
+            - 10 augm. (from 2 sample images) images
+        - cleric
+            - 10 augm. (from 2 sample images) images
+        - druid
+            - 10 augm. (from 2 sample images) images
+        - julia-roberts
+            - 10 augm. (from 2 sample images) images
+        - leonardo-dicaprio
+            - 10 augm. (from 2 sample images) images
+        - marilyn-monroe
+            - 10 augm. (from 2 sample images) images
+        - meryl-streep
+            - 10 augm. (from 2 sample images) images
+        - nicolas-cage
+            - 10 augm. (from 2 sample images) images
+        - nicole-kidman
+            - 10 augm. (from 2 sample images) images
+        - sylvester-stallone
+            - 10 augm. (from 2 sample images) images
+        - will-smith
+            - 10 augm. (from 2 sample images) images

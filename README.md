@@ -24,7 +24,8 @@ according to my favourites.
 
 ### Data augmentation and preparation
 
-
+I picked up 2 images of each actor/actress and augmented 25 + 25 images
+for training and 5 + 5 images for validation. So for each actor/actress 50 training images and 10 validation images. Check out the `actoress-data-tree.txt`
 
 ### Creating and fine tuning model (MobileNet) to own use
 
