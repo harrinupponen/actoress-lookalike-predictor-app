@@ -22,22 +22,41 @@ according to my favourites.
 - tensorflow 2.0.0
 - Heroku for deploying
 
+### Usage
+
 ### Data augmentation and preparation
 
 I picked up 2 images of each actor/actress and augmented 25 + 25 images
 for training and 5 + 5 images for validation. So for each actor/actress 50 training images and 10 validation images. Check out the `actoress-data-tree.txt`
 
-### Creating and fine tuning model (MobileNet) to own use
+For the augmentation and details for the ImageDataGenerator processes check out:
 
+[ImageDataGenerator Class](https://keras.io/api/preprocessing/image/)
 
+### Creating and fine tuning model (MobileNet) to own use + save the model
 
-### Saving and loading the model
+Specified comments in the `create_save_model.py`
 
+But in a nutshell:
 
+Create paths for training and validation data, prepare the data, import the pre-trained model, fine-tune it for own purposes, compile and fit the
+new model and save it.
 
-### User's image preparation for CNN model
+### Loading the model
 
+I have the `app.py` and the model `mn_actoress_model2.h5` in the root of my project.
+Then in the app.py I have a function to load the model:
 
+```python
+def get_model():
+    global model
+    model = load_model('mn_actoress_model2.h5')
+    print(' * Model loaded!')
+```
+
+### User's image preparation for the model
+
+Check out the `app.py` for the details
 
 ### Deploying the Flask Back-End to Heroku
 
