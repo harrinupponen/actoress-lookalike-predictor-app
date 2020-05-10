@@ -24,6 +24,11 @@ according to my favourites.
 
 ### Usage
 
+- Click the "Choose file" button
+- Choose a file (accepted formats: .png and .jpg)
+- Click the "Predict" button
+- And there you go! You have the top 5 results
+
 ### Data augmentation and preparation
 
 I picked up 2 images of each actor/actress and augmented 25 + 25 images
