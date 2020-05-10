@@ -24,6 +24,8 @@ according to my favourites.
 
 ### Usage
 
+Go to: [Actoress prediction App](https://actoress-prediction.herokuapp.com/static/predict-actoress.html)
+
 - Click the "Choose file" button
 - Choose a file (accepted formats: .png and .jpg)
 - Click the "Predict" button
