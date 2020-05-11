@@ -1,5 +1,8 @@
 let base64Image;
 let modal = document.getElementById('result');
+
+        //Get the image
+
         $('#image-selector').change(function() {
             let reader = new FileReader();
             reader.onload = function(e) {
@@ -11,6 +14,8 @@ let modal = document.getElementById('result');
             }
             reader.readAsDataURL($('#image-selector')[0].files[0]);
         });
+
+        //Send the picture to the backend and show top5 results in desired form.
 
         $('#predict-button').click(function() {
             let message = {
@@ -35,6 +40,8 @@ let modal = document.getElementById('result');
                         j++;
                         $('#prediction-list').append(`<li> ${j}. ${p.className}: ${(100 * (p.propability)).toFixed(2)} %</li>`);
                     });
+
+                    //Get the image of the actor who the user looks like the most
                     $('#result-act-image').attr('src', function() {
                         let imgSrc = '';
                         if(top5[0].className == ACT_CLASSES[0]) {

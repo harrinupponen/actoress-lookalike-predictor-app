@@ -25,13 +25,13 @@
         - will-smith
             - 50 augm. (from 2 sample images) images
     - valid
-        - barbarian
+        - brad-pitt
             - 10 augm. (from 2 sample images) images
-        - bard
+        - clint-eastwood
             - 10 augm. (from 2 sample images) images
-        - cleric
+        - halle-berry
             - 10 augm. (from 2 sample images) images
-        - druid
+        - judi-dench
             - 10 augm. (from 2 sample images) images
         - julia-roberts
             - 10 augm. (from 2 sample images) images
