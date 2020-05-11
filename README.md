@@ -31,6 +31,10 @@ Go to: [Actoress prediction App](https://actoress-prediction.herokuapp.com/stati
 - Click the "Predict" button
 - And there you go! You have the top 5 results
 
+### Issues
+
+- While testing with different images, it may give a prediction that a man-user is actress or vice versa. This may be just an issue with too small amount of train-data and the similarity of different actor's/actress' images in the train data.
+
 ### Data augmentation and preparation
 
 I picked up 2 images of each actor/actress and augmented 25 + 25 images
@@ -65,12 +69,6 @@ def get_model():
 
 Check out the `app.py` for the details
 
-### Deploying the Flask Back-End to Heroku
-
-
-
 ### Creating the Front-End
 
-
-
-### Deploying the Front-End to Heroku
+### Deploying the Flask Back-End to Heroku

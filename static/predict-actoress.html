@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Actoress Prediction</title>
+</head>
+<body>
+    <div id="container">
+        <div id="main">
+            <div id="buttons">
+                <input id="image-selector" type="file">
+                <label id="predict-button">
+                    <button id="hidden-button"></button>
+                    Predict
+                </label>
+            </div>
+            <img id="selected-image" alt="selected-image">
+            <div id="result">
+                <div id="result-content">
+                    <span id="close">&times;</span>
+                    <img id="result-image" alt="result-image">
+                    <img id="result-act-image" alt="result-act-image">
+                    <p><strong>Prediction</strong></p>
+                    <ul id="prediction-list"></ul>
+                </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+            <script src="/static/act_classes.js"></script>
+            <script src="/static/predict.js"></script>
+        </div>
+    </div>
+</body>
+</html>

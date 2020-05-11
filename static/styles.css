@@ -1,0 +1,98 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#container {
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/09/14/51/hollywood-sign-979399_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+#main {
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.5));
+    max-width: 1200px;
+    min-width: 500px;
+    min-height: 400px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
+#predict-button {
+    cursor: pointer;
+    padding: 15px;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+    text-align: center;
+}
+#hidden-button {
+    display: none;
+}
+#selected-image, #result-image, #result-act-image {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid lightgreen;
+}
+#result {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+#result-content {
+    background-color: black;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+}
+#prediction-list {
+    list-style-type: none;
+}
+#close {
+    cursor: pointer;
+    color: white;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+@media screen and (max-width: 690px) {
+    #container {
+        background-size: 700px 900px;
+    }
+    #main {
+        margin: auto;
+        min-width: 0;
+    }
+    #buttons {
+        flex-direction: column;
+    }
+    #image-selector {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    #selected-image, #result-image, #result-act-image {
+        max-width: 125px;
+        max-height: 150px;
+        border: 2px solid lightgreen;
+    }
+    #result {
+        top: 100px;
+    }
+}
