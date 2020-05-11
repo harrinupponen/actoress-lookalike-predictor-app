@@ -35,7 +35,7 @@ UI is mobile-freindly also
 
 ### Issues
 
-- While testing with different images, it may give a prediction that a man-user is actress or vice versa. This may be just an issue with too small amount of train-data and the similarity of different actor's/actress' images in the train data.
+[Model is not very accurate](https://github.com/harrinupponen/actoress-lookalike-predictor-app/issues)
 
 ### Data augmentation and preparation
 
